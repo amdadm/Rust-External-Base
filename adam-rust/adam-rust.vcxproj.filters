@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dependencies\imgui\imgui.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_draw.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_dx11.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_win32.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_tables.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_widgets.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="adam-rust.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{7c3ae78b-0cd6-44f5-be7c-d57854292193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\font">
+      <UniqueIdentifier>{6db97a6d-ff22-4d7d-b2d5-381a31152822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\hexrays">
+      <UniqueIdentifier>{a81ad0b0-341c-4746-aa68-a1c3d82e319f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\imgui">
+      <UniqueIdentifier>{35c3907f-9666-4ad2-9a07-615719be52d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\logger">
+      <UniqueIdentifier>{18d7c400-b3f4-45f4-8637-5cda3b9ccd96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\skcrypt">
+      <UniqueIdentifier>{f70c54ab-a907-4cf8-b928-26cae71c0e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl">
+      <UniqueIdentifier>{493a36d1-c02c-4cbf-9c17-a9fb1ab45856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\exception">
+      <UniqueIdentifier>{1de12158-4728-4e6f-888a-f7bafc7354c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\wdk">
+      <UniqueIdentifier>{93365a1f-a90a-40f7-a6f0-c884cb726879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\libcrypt">
+      <UniqueIdentifier>{c7a07f81-b9f6-4c1c-9389-dcaff3feb49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\lazy">
+      <UniqueIdentifier>{18de34bb-104e-412e-8fe5-6370f83f3244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace">
+      <UniqueIdentifier>{8076b9a1-049d-486d-bcad-04352a55d1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\driver">
+      <UniqueIdentifier>{5cd5f05c-32a1-44e6-8e1d-52799dd229f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\config">
+      <UniqueIdentifier>{42bb6560-56df-4f36-9019-e7f729c40f65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\game">
+      <UniqueIdentifier>{be39463e-0bde-45c9-b738-e1dfadea2211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\game\sdk">
+      <UniqueIdentifier>{527c75e5-9294-4a83-9f4e-465f2624b004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\game\sdk\engine">
+      <UniqueIdentifier>{41a73237-03b8-408b-becf-36b95fe75127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\game\sdk\engine\enums">
+      <UniqueIdentifier>{c93e9e5e-3785-470a-b3d6-e4c5510e716e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\game\sdk\engine\structs">
+      <UniqueIdentifier>{5a8e0209-de8f-4f4b-a896-021f98163441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\game\sdk\math">
+      <UniqueIdentifier>{de8509dd-aeb9-4617-92ea-1a01bcd015f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\game\world">
+      <UniqueIdentifier>{1b90b83f-4df5-4c81-8185-38712ae75a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\game\il2cpp">
+      <UniqueIdentifier>{623ad288-9c71-4e4a-afbf-80b5ec29275f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\game\classes">
+      <UniqueIdentifier>{eb6b5f16-c416-41ae-b578-fa7c399d045a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\drawing">
+      <UniqueIdentifier>{7890ff27-d030-4e73-a271-cbc97d4c0ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="workspace\drawing\render">
+      <UniqueIdentifier>{7e05f24a-60ea-434d-aa26-e8b6fccc060a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependencies\font\font.h">
+      <Filter>dependencies\font</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\hexrays\hexrays.h">
+      <Filter>dependencies\hexrays</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imconfig.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_dx11.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_win32.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_internal.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_rectpack.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_textedit.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_truetype.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\logger\logger.hxx">
+      <Filter>dependencies\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\skcrypt\skcrypter.h">
+      <Filter>dependencies\skcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\includes.h">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\exception\exception.hxx">
+      <Filter>impl\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\wdk\wdk.h">
+      <Filter>impl\wdk</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\lazy\lazy_importer.h">
+      <Filter>dependencies\lazy</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\driver\driver.hxx">
+      <Filter>workspace\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\config\config.h">
+      <Filter>workspace\config</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\sdk\engine\enums\enums.h">
+      <Filter>workspace\game\sdk\engine\enums</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\sdk\engine\structs\structs.h">
+      <Filter>workspace\game\sdk\engine\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\sdk\math\math.hxx">
+      <Filter>workspace\game\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\sdk\sdk.h">
+      <Filter>workspace\game\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\il2cpp\il2cpp.hxx">
+      <Filter>workspace\game\il2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\classes\base_networkable.hxx">
+      <Filter>workspace\game\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\classes\base_player.hxx">
+      <Filter>workspace\game\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\classes\player_model.hxx">
+      <Filter>workspace\game\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\world\world.hxx">
+      <Filter>workspace\game\world</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\game\classes\main_camera.hxx">
+      <Filter>workspace\game\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\drawing\drawing.hxx">
+      <Filter>workspace\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="workspace\drawing\render\render.hxx">
+      <Filter>workspace\drawing\render</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
